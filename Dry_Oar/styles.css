@@ -1,0 +1,27 @@
+body {
+  background-color: tan;
+}
+header {
+  background-color: slategray;
+}
+footer {
+  background-color: slategray;
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer {
+  margin: auto;
+  width: 100%;
+  border: 3px solid rgb(13, 32, 13);
+  padding: 10px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
