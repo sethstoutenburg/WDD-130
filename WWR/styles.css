@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans&family=Playfair+Display&display=swap");
+
 body {
-  background-color: tan;
+  background-color: rgb(231, 231, 231);
 }
 header {
   background-color: slategray;
@@ -14,8 +16,7 @@ footer {
   text-align: center;
 }
 footer {
-  margin: auto;
-  width: 100%;
+  margin: 0;
   border: 3px solid rgb(13, 32, 13);
   padding: 10px;
 }
@@ -24,4 +25,41 @@ footer {
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+.home-title h2 {
+  font-family: "Caveat";
+  font-size: 3em;
+}
+
+.font1 {
+  font-family: "PT Sans";
+  font-size: 1.25em;
+}
+
+.border img {
+  width: 300px;
+  border: 5px solid green;
+  padding: 0px;
+  margin: 20px;
+}
+.box {
+  width: 100px;
+  border: 1px solid tan;
+  padding: 5px;
+  margin: auto;
+  background-color: tan;
+  border-radius: 45px;
+}
+.box2 {
+  width: auto;
+  border: 1px solid rgb(111, 105, 98);
+  padding: 5px;
+  margin: auto;
+  background-color: rgb(111, 105, 98);
+}
+.textcolor {
+  color: tan;
+}
+.inline-block {
+  display: inline-block;
 }
