@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.border-size {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.test12 {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  background-color: blue;
+  padding: 0px;
+}
+
+.test1 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  height: 500px;
+  background-color: bisque;
+}
