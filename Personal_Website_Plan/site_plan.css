@@ -3,6 +3,8 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
 
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Lora:wght@500&family=Merriweather&family=Open+Sans&family=Playfair+Display&display=swap");
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396e94;
@@ -175,4 +177,124 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/*My Stuff*/
+
+.color_scheme {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.b {
+  background-color: #ca965c;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.c {
+  background-color: #eec373;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.e {
+  background-color: #876445;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.n {
+  background-color: #f4dfba;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/*second grid*/
+
+.color_scheme2 {
+  margin: 40px;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box2 {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.aa {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.bb {
+  font-family: "Caveat";
+  background-color: black;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.cc {
+  font-family: "Playfair Display";
+  background-color: black;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.dd {
+  font-family: "Open Sans";
+  background-color: black;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.ee {
+  font-family: "Lora";
+  background-color: black;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
