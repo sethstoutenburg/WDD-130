@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=PT+Sans&family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(185, 155, 107);
+}
+header {
+  padding: 5px;
+  background-color: rgb(105, 130, 105);
+}
+
+footer {
+  background-color: rgb(170, 86, 86);
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer {
+  margin: 0;
+  border: 1px solid rgb(170, 86, 86);
+  padding: 10px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.home-title h2 {
+  font-family: "Caveat";
+  font-size: 3em;
+}
+
+.font1 {
+  font-family: "PT Sans";
+  font-size: 1.25em;
+}
+
+.border img {
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+.box a {
+  width: 100px;
+  border: 1px solid;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  background-color: burlywood;
+  border-radius: 5px;
+}
+.box2 {
+  width: auto;
+  height: auto;
+  border: 1px solid;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(241, 219, 191);
+}
+.box_no_color a {
+  width: 100px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+
+  border-radius: 45px;
+}
+.textcolor {
+  color: tan;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 10%;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  height: 500px;
+}
+.first_row a {
+  grid-row: 1/2;
+}
+.icon_column {
+  grid-column: 1/3;
+}
+.home_link a {
+  grid-column: 3/4;
+}
