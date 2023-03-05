@@ -1,0 +1,193 @@
+/* Center the main content section */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Add a border and shadow to the main content section */
+main {
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the images */
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+/* Style the navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: #444;
+  color: #fff;
+  /* other styles */
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  /* other styles */
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+}
+body {
+  background-color: #ebe9e9;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container img {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay h2 {
+  margin-top: 0;
+}
+
+.text-overlay p {
+  margin-bottom: 0;
+}
+.color-palette-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-swatch {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.brown {
+  background-color: #876445;
+}
+
+.lightbrown {
+  background-color: #ca965c;
+}
+
+.tan {
+  background-color: #eec373;
+}
+
+.lighttan {
+  background-color: #f4dfba;
+}
+.darkcolor {
+  background-color: #444;
+}
+
+.centerit {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.font-container {
+  text-align: center;
+}
+
+.font-example {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.serif {
+  font-family: Georgia, serif;
+}
+
+.sans-serif {
+  font-family: Arial, sans-serif;
+}
+
+.monospace {
+  font-family: "Courier New", monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
