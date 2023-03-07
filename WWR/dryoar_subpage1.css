@@ -134,3 +134,45 @@ nav a:hover {
   background-color: #ddd;
   color: black;
 }
+/* CSS styles for the header */
+header {
+  background-color: rgb(105, 130, 105);
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  height: relative;
+  border-radius: 2px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+nav {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 120px;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
