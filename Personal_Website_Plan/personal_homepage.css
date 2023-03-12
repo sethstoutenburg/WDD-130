@@ -1,0 +1,56 @@
+/* styles for header */
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center; /* centers items vertically */
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* centers items vertically */
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
