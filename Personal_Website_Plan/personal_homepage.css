@@ -38,6 +38,25 @@ nav li a:hover {
   border-radius: 100px;
 }
 
+/*Main Stuff*/
+.box {
+  background-color: #966f33;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.textthing {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
 /* Footer styles */
 footer {
   background-color: #343a40;
@@ -54,4 +73,8 @@ footer p {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+.imagecenter {
+  display: block;
+  margin: 0 auto;
 }
