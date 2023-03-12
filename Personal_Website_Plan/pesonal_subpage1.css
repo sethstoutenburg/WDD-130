@@ -77,9 +77,12 @@ nav a {
 }
 
 .logo {
-  display: inline-block;
-  width: 150px;
-  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: auto;
+  height: auto;
+  border-radius: 100px;
 }
 body {
   background-color: #ebe9e9;
@@ -191,9 +194,7 @@ body {
 .cursive {
   font-family: cursive;
 }
-
-.size_small {
-  height: 700px;
-  width: 500px;
-  padding-left: 250px;
+.planlink {
+  color: white;
+  text-decoration: none;
 }
