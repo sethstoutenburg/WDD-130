@@ -302,3 +302,13 @@ nav a:hover {
 .blackfont {
   color: black;
 }
+.size_small {
+  height: 700px;
+  width: 500px;
+  padding-left: 250px;
+}
+.centerit {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
