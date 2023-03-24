@@ -1,0 +1,27 @@
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

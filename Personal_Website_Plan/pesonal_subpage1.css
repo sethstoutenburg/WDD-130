@@ -198,3 +198,24 @@ body {
   color: white;
   text-decoration: none;
 }
+.container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 2px;
+}
+
+.textbox {
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  flex: 1;
+}
+
+.image {
+  margin-left: 10px;
+  max-width: 50%;
+  height: auto;
+}
