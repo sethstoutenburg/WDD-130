@@ -35,10 +35,14 @@ nav li a:hover {
   right: 20px;
   width: 150px;
   height: 150px;
+  z-index: 9999;
   border-radius: 100px;
 }
 
 /*Main Stuff*/
+main {
+  background-color: rgb(226, 226, 226);
+}
 .box {
   background-color: #966f33;
   width: auto;
@@ -55,6 +59,10 @@ nav li a:hover {
   line-height: 1;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+}
+.my-paragraph {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 /* Footer styles */
@@ -77,4 +85,13 @@ footer a {
 .imagecenter {
   display: block;
   margin: 0 auto;
+}
+.speciallink a {
+  text-decoration: none; /* Remove the default underline */
+  color: black; /* Inherit the color from the parent element */
+  font-size: 2em; /* Match the font size of the h1 element */
+  font-weight: bold; /* Add some extra weight to make it stand out */
+}
+.underline {
+  text-decoration: underline;
 }
