@@ -44,7 +44,7 @@ main {
   background-color: rgb(226, 226, 226);
 }
 .box {
-  background-color: #966f33;
+  background-color: rgb(206, 203, 203);
   width: auto;
   height: auto;
   padding: 20px;
@@ -53,7 +53,7 @@ main {
 }
 .textthing {
   position: absolute;
-  top: 45%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1;
